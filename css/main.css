@@ -1,3 +1,21 @@
+html {
+  font-family: Fredoka One, sans-serif;
+  background-color: #b3fbff;
+}
+
 body {
-  font-family: 'Fredoka One', cursive;
+    background-image: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 10%, #d4fdff 10%, #d4fdff 20%);
+}
+
+h1 {
+  color: #990073;
+}
+
+p {
+  color: #c09;
+}
+
+a {
+  color: #c09;
+  border-color: #c09;
 }
