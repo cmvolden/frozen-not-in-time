@@ -1,10 +1,10 @@
 html {
-  font-family: Fredoka One, sans-serif;
+  font-family: "Fredoka One", sans-serif;
   background-color: #b3fbff;
 }
 
 body {
-    background-image: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 10%, #d4fdff 10%, #d4fdff 20%);
+  background-image: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 10%, #d4fdff 10%, #d4fdff 20%);
 }
 
 h1 {
@@ -15,7 +15,11 @@ p {
   color: #c09;
 }
 
-a {
+.btn-ghost {
   color: #c09;
   border-color: #c09;
+}
+
+.btn-ghost:hover {
+
 }
