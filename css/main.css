@@ -1,23 +1,32 @@
 html {
   font-family: "Fredoka One", sans-serif;
-  background-color: #b3fbff;
 }
 
-body {
+.banner-outer {
   background-image: repeating-linear-gradient(-45deg, #c9fcff 0%, #c9fcff 1%, #d4fdff 1.1%, #d4fdff 2%, #c9fcff 2.1%);
 }
 
 h1 {
+  position: relative;
+  left: -.15em;
   color: #990073;
+  text-shadow: 2px 2px #bcdee0;
+  transform: rotate(-10deg);
+  transform-origin: left center;
 }
 
 p {
   color: #c09;
+  text-shadow: 2px 2px #bcdee0;
+  transform: rotate(-5deg);
+  transform-origin: left center;
+  max-width: 19em;
 }
 
 .btn-ghost {
   color: #c09;
   border-color: #990073;
+  text-shadow: 2px 2px #bcdee0;
 }
 
 .btn-ghost:hover {
@@ -26,16 +35,36 @@ p {
   background-color: rgba(153, 0, 115, .1);
 }
 
-.h1 {
-  transform: rotate(-10deg);
-  transform-origin: left center;
+.cherry {
+  right: 0px;
+  top: 10px;
+  z-index: 5;
 }
 
-.p {
-  transform: rotate(-5deg);
-  transform-origin: left center;
+.vanilla {
+  right: 0px;
+  top: 75px;
+  z-index: 4;
 }
 
-img {
-  max-width: 19em;
+.chocolate {
+  right: 0px;
+  top: 175px;
+  z-index: 3;
+}
+
+.mint {
+  right: 0px;
+  top: 275px;
+  z-index: 1;
+}
+
+.cone {
+  right: 0px;
+  top: 400px;
+  z-index: 2;
+}
+
+.icecream {
+  min-height: 480px;
 }
