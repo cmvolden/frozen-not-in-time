@@ -17,9 +17,25 @@ p {
 
 .btn-ghost {
   color: #c09;
-  border-color: #c09;
+  border-color: #990073;
 }
 
 .btn-ghost:hover {
+  color: #c09;
+  border-color: #990073;
+  background-color: rgba(153, 0, 115, 0.1);
+}
 
+.h1 {
+  transform: rotate(-10deg);
+  transform-origin: left center;
+}
+
+.p {
+  transform: rotate(-5deg);
+  transform-origin: left center;
+}
+
+img {
+  max-width: 19em;
 }
