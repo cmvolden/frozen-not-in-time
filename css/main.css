@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 10%, #d4fdff 10%, #d4fdff 20%);
+  background-image: repeating-linear-gradient(-45deg, #c9fcff 0%, #c9fcff 1%, #d4fdff 1.1%, #d4fdff 2%, #c9fcff 2.1%);
 }
 
 h1 {
@@ -23,7 +23,7 @@ p {
 .btn-ghost:hover {
   color: #c09;
   border-color: #990073;
-  background-color: rgba(153, 0, 115, 0.1);
+  background-color: rgba(153, 0, 115, .1);
 }
 
 .h1 {
