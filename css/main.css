@@ -4,6 +4,8 @@ html {
 
 .banner-outer {
   background-image: repeating-linear-gradient(-45deg, #c9fcff 0%, #c9fcff 1%, #d4fdff 1.1%, #d4fdff 2%, #c9fcff 2.1%);
+  border-top: solid 10px #b3fbff;
+  border-bottom: solid 10px #b3fbff;
 }
 
 h1 {
@@ -36,35 +38,103 @@ p {
 }
 
 .cherry {
-  right: 0px;
-  top: 10px;
   z-index: 5;
+
+  animation: cherry-drop-in .3s 1.5s ease-in forwards;
 }
 
 .vanilla {
-  right: 0px;
-  top: 75px;
   z-index: 4;
+
+  animation: vanilla-drop-in .3s .9s ease-in forwards;
 }
 
 .chocolate {
-  right: 0px;
-  top: 175px;
   z-index: 3;
+
+  animation: chocolate-drop-in .3s .6s ease-in forwards;
 }
 
 .mint {
-  right: 0px;
-  top: 275px;
   z-index: 1;
+
+  animation: mint-drop-in .3s .3s ease-in forwards;
 }
 
 .cone {
-  right: 0px;
-  top: 400px;
   z-index: 2;
+
+  animation: cone-drop-in .3s ease-in forwards;
 }
 
 .icecream {
   min-height: 480px;
+}
+
+.ingredient {
+  height: 125px;
+  width: 125px;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes cone-drop-in {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 10px;
+  }
+
+}
+
+@keyframes mint-drop-in {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 115px;
+  }
+
+}
+
+@keyframes chocolate-drop-in {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 200px;
+  }
+
+}
+
+@keyframes vanilla-drop-in {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 275px;
+  }
+
+}
+
+@keyframes cherry-drop-in {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: 350px;
+  }
+
 }
