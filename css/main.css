@@ -37,9 +37,17 @@ p {
   background-color: rgba(153, 0, 115, .1);
 }
 
+.ingredient {
+  height: 125px;
+  width: 125px;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .cherry {
   z-index: 5;
-  width: 70px !important;
+  width: 70px;
   animation: cherry-drop-in .3s 1.5s ease-in forwards;
 }
 
@@ -73,14 +81,6 @@ p {
 
 .icecream {
   min-height: 480px;
-}
-
-.ingredient {
-  height: 125px;
-  width: 125px;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 @keyframes cone-drop-in {
